@@ -48,6 +48,9 @@ function checkOS() {
 	elif [[ -e /etc/centos-release ]]; then
 		source /etc/os-release
 		OS=centos
+	elif [[ -e /etc/rocky-release ]]; then
+		source /etc/os-release
+		OS=centos
 	elif [[ -e /etc/oracle-release ]]; then
 		source /etc/os-release
 		OS=oracle
