@@ -1,7 +1,5 @@
 # WireGuard installer
 
-## Requirements
-
 Supported distributions:
 
 - Ubuntu >= 16.04
