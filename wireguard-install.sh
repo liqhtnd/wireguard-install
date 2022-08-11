@@ -51,7 +51,6 @@ function checkOS() {
 
 function initialCheck() {
 	isRoot
-	checkVirt
 	checkOS
 }
 
